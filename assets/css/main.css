@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("fontawesome-all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 
 html, body, div, span, applet, object,
@@ -16,6 +15,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing: border-box;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
@@ -78,10 +78,16 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: linear-gradient(45deg, #202020, rgb(71, 71, 71));
 		overflow: hidden;
+		height: 100vh;
+		font-family: Arial, sans-serif;
+    	margin: 0;
+   		padding: 0;
 	}
+	
 
+	
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -116,12 +122,63 @@ input, select, textarea {
 		a:hover {
 			border-color: transparent;
 		}
-
+/*button */
 		.button-text {
             font-size: 0.7em;
             color: #fff;
 			font-weight: 500;
         }
+
+		/* CSS for the cards */
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+			max-width: 80vw;
+			flex-wrap: wrap;
+			
+			
+        }
+
+        .card {
+            margin-top: 5rem;
+			width: 25%;
+			border: solid 2px red;
+			border-radius: 10px;
+			backdrop-filter: blur(20px);
+			box-shadow: 10px 10px 120px rgba(0, 0, 0, 0.5);
+			border: solid 2px rgba(255, 255, 255, 0.027);
+			color: white;
+			padding: 2rem;
+		
+        }
+
+		h2, h3 {
+			margin-top: 2rem;
+			line-height: 2rem;
+			letter-spacing: 3px;
+			text-shadow: 5px 5px 8px rgba(0,0,0,0.8);
+			
+			
+		}
+
+		
+		h3 {
+    		font-size: 11pt; /* Adjust the font size here */
+		}
+
+		h2 {
+    		font-size: 30pt; /* Adjust the font size here */
+		}
+
+		@media only screen and (max-width:1024px) {
+			.card {
+				width: 90%;
+			}
+		}
+		
+		
 /* Icon */
 
 	.icon {
@@ -558,6 +615,7 @@ input, select, textarea {
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+		
 		}
 
 		#header p {
