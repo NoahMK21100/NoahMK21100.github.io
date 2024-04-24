@@ -142,15 +142,17 @@ input, select, textarea {
         }
 
         .card {
+			margin: 0.5rem;
             margin-top: 5rem;
 			width: 25%;
 			border: solid 2px red;
-			border-radius: 10px;
-			backdrop-filter: blur(20px);
+			border-radius: 12px;
+			backdrop-filter: blur(25px);
 			box-shadow: 10px 10px 120px rgba(0, 0, 0, 0.5);
 			border: solid 2px rgba(255, 255, 255, 0.027);
 			color: white;
 			padding: 2rem;
+			height: 350px;
 		
         }
 
@@ -169,6 +171,7 @@ input, select, textarea {
 		}
 
 		h2 {
+			margin-top: 0rem;
     		font-size: 30pt; /* Adjust the font size here */
 		}
 
