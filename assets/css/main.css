@@ -135,7 +135,7 @@ input, select, textarea {
             justify-content: space-between;
             align-items: center;
             margin: auto;
-			max-width: 80vw;
+			max-width: 70vw;
 			flex-wrap: wrap;
 			
 			
@@ -146,18 +146,18 @@ input, select, textarea {
             margin-top: 5rem;
 			width: 25%;
 			border: solid 2px red;
-			border-radius: 12px;
+			border-radius: 10px;
 			backdrop-filter: blur(25px);
 			box-shadow: 10px 10px 120px rgba(0, 0, 0, 0.5);
 			border: solid 2px rgba(255, 255, 255, 0.027);
 			color: white;
 			padding: 2rem;
-			height: 350px;
+			height: 400px;
 		
         }
 
 		h2, h3 {
-			margin-top: 2rem;
+			margin-top: 1rem;
 			line-height: 2rem;
 			letter-spacing: 3px;
 			text-shadow: 5px 5px 8px rgba(0,0,0,0.8);
@@ -171,8 +171,12 @@ input, select, textarea {
 		}
 
 		h2 {
-			margin-top: 0rem;
-    		font-size: 30pt; /* Adjust the font size here */
+			margin-top: 1rem;
+    		font-size: 25pt; /* Adjust the font size here */
+		}
+
+		hr {
+			opacity: 20%;
 		}
 
 		@media only screen and (max-width:1024px) {
@@ -203,7 +207,7 @@ input, select, textarea {
 		}
 
 		.icon > .label {
-			display: none;
+			display: non
 		}
 
 		.icon.solid:before {
@@ -628,7 +632,7 @@ input, select, textarea {
 		}
 
 		#header nav {
-			margin: 1.5em 0 0 0;
+			margin: 3em 0 0 0;
 		}
 
 			#header nav li {
@@ -651,6 +655,7 @@ input, select, textarea {
 				position: relative;
 				top: 0;
 				width: 5.35em;
+				margin-right: 20px;
 			}
 
 				#header nav li:nth-child(1) {
